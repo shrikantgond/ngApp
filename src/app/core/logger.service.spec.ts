@@ -1,15 +1,15 @@
 import { TestBed, inject } from '@angular/core/testing';
 
-import { LoggerServiceService } from './logger-service.service';
+import { LoggerService } from './logger.service';
 
-describe('LoggerServiceService', () => {
+describe('LoggerService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [LoggerServiceService]
+      providers: [LoggerService]
     });
   });
 
-  it('should be created', inject([LoggerServiceService], (service: LoggerServiceService) => {
+  it('should be created', inject([LoggerService], (service: LoggerService) => {
     expect(service).toBeTruthy();
   }));
 });
