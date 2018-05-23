@@ -1,0 +1,2 @@
+1. Put service in feature\shared location as it will be used in various components of a feature
+    e.g. library\shared\book-data.service.ts
